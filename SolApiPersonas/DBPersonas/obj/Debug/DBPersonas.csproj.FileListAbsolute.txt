@@ -1,0 +1,12 @@
+C:\Users\thann\source\repos\SolApiPersonas\DBPersonas\bin\Debug\DBPersonas.dll.config
+C:\Users\thann\source\repos\SolApiPersonas\DBPersonas\bin\Debug\DBPersonas.dll
+C:\Users\thann\source\repos\SolApiPersonas\DBPersonas\bin\Debug\DBPersonas.pdb
+C:\Users\thann\source\repos\SolApiPersonas\DBPersonas\bin\Debug\EntityFramework.dll
+C:\Users\thann\source\repos\SolApiPersonas\DBPersonas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\thann\source\repos\SolApiPersonas\DBPersonas\bin\Debug\EntityFramework.xml
+C:\Users\thann\source\repos\SolApiPersonas\DBPersonas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\thann\source\repos\SolApiPersonas\DBPersonas\obj\Debug\DBPersonas.csproj.AssemblyReference.cache
+C:\Users\thann\source\repos\SolApiPersonas\DBPersonas\obj\Debug\DBPersonas.csproj.CoreCompileInputs.cache
+C:\Users\thann\source\repos\SolApiPersonas\DBPersonas\obj\Debug\DBPersonas.csproj.CopyComplete
+C:\Users\thann\source\repos\SolApiPersonas\DBPersonas\obj\Debug\DBPersonas.dll
+C:\Users\thann\source\repos\SolApiPersonas\DBPersonas\obj\Debug\DBPersonas.pdb
