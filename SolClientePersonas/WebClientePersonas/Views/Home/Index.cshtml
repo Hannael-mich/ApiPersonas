@@ -1,0 +1,59 @@
+﻿@model IEnumerable<WebClientePersonas.ServiceReference1.persona>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@if (TempData["error"] != null)
+{
+    <div class="alert alert-danger">@TempData["error"]</div>
+}
+@if (TempData["ok"] != null)
+{
+    <div class="alert alert-success">@TempData["ok"]</div>
+}
+
+<p>
+    @Html.ActionLink("Create New", "Agregar")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Paterno)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Materno)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaAlta)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Paterno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Materno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaAlta)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.id })
+            </td>
+        </tr>
+    }
+
+</table>
